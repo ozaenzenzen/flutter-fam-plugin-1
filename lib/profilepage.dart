@@ -26,6 +26,7 @@ class _ProfilePageState extends State<ProfilePage> {
       body: Container(
         alignment: Alignment.center,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text("${data['title']}"),
             SizedBox(
