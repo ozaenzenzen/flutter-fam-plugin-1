@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:flutter_getx_2/controller/apptheme_controller.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({ Key? key }) : super(key: key);
@@ -8,10 +10,19 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
+  AppThemeController appThemeController = Get.find<AppThemeController>();
+
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Profile Page"),
+        backgroundColor: appThemeController.currentColor.value,
+      ),
+      body: Container(
+        alignment: Alignment.center,
+        child: const Text("Profile Page"),
+      ),
     );
   }
 }
