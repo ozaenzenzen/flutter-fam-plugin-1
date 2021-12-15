@@ -23,7 +23,7 @@ class _ProfilePageState extends State<ProfilePage> {
     return Obx(() {
       return Scaffold(
         appBar: AppBar(
-          title: const Text("Profile Page"),
+          title: const Text("Product Detail Page"),
           backgroundColor: appThemeController.currentColor.value,
           elevation: 0,
         ),
