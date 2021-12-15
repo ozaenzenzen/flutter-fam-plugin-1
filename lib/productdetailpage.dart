@@ -4,14 +4,14 @@ import 'package:get/get.dart';
 import 'package:flutter_getx_2/controller/apptheme_controller.dart';
 import 'package:flutter_getx_2/controller/incredecre_controller.dart';
 
-class ProfilePage extends StatefulWidget {
-  const ProfilePage({Key? key}) : super(key: key);
+class ProductDetailPage extends StatefulWidget {
+  const ProductDetailPage({Key? key}) : super(key: key);
 
   @override
-  _ProfilePageState createState() => _ProfilePageState();
+  _ProductDetailPageState createState() => _ProductDetailPageState();
 }
 
-class _ProfilePageState extends State<ProfilePage> {
+class _ProductDetailPageState extends State<ProductDetailPage> {
   ScreenUtil screenUtil = ScreenUtil();
   AppThemeController appThemeController = Get.find<AppThemeController>();
   IncreDecreController increDecreController = Get.find<IncreDecreController>();
