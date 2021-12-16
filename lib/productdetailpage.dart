@@ -68,33 +68,6 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                       });
                     },
                   ),
-                  // ElevatedButton(
-                  //   onPressed: () {
-                  //     setState(() {
-                  //       increDecreController.increment1();
-                  //       increDecreController.increment2();
-                  //     });
-                  //   },
-                  //   child: const Icon(Icons.add),
-                  //   style: ElevatedButton.styleFrom(
-                  //     primary: appThemeController.currentColor.value,
-                  //   ),
-                  // ),
-                  // SizedBox(
-                  //   width: screenUtil.setWidth(10),
-                  // ),
-                  // ElevatedButton(
-                  //   onPressed: () {
-                  //     setState(() {
-                  //       increDecreController.decrement1();
-                  //       increDecreController.decrement2();
-                  //     });
-                  //   },
-                  //   child: const Icon(Icons.remove),
-                  //   style: ElevatedButton.styleFrom(
-                  //     primary: appThemeController.currentColor.value,
-                  //   ),
-                  // ),
                 ],
               ),
             ],
